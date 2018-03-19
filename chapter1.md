@@ -1,8 +1,10 @@
 ---
 title: Template Chapter 1
-description: This is a template chapter.
----
+description: >-
+  This is a template chapter.
 
+
+---
 ## Ex 1.1
 
 ```yaml
@@ -21,26 +23,16 @@ Do some data science.
 `@hint`
 
 
-`@pre_exercise_code`
 
-```{r}
-
-```
-
-`@sample_code`
-
-```{r}
-
-```
 
 `@solution`
-
 ```{r}
+library(tidyverse)
+
 
 ```
 
-`@sct`
 
-```{r}
 
-```
+
+
