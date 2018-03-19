@@ -24,11 +24,13 @@ Do some data science.
 
 
 
-
+`@sample_code`
+```{r}
+library(tibble)
+```
 `@solution`
 ```{r}
-library(tidyverse)
-
+library(tibble)
 
 ```
 
