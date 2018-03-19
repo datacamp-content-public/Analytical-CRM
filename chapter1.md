@@ -27,6 +27,15 @@ Do some data science.
 `@sample_code`
 ```{r}
 library(tibble)
+library(readr)
+data.df <- read_csv("dectrees.csv",
+  col_types = cols(
+  referrer = col_character(),
+  location = col_character(),
+  read_faq = col_character(),
+  pages_viewed = col_integer(),
+  service_chosen = col_factor(levels = NULL)
+)
 ```
 `@solution`
 ```{r}
