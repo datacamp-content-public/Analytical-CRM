@@ -21,14 +21,14 @@ Do some data science.
 
 
 `@hint`
-
+http://s3.amazonaws.com/assets.datacamp.com/production/course_7605/datasets/dectrees.csv
 
 
 `@sample_code`
 ```{r}
 library(tibble)
 library(readr)
-data.df <- read_csv("dectrees.csv",
+data.df <- read_csv("https://assets.datacamp.com/production/course_7605/datasets/dectrees.csv",
   col_types = cols(
   referrer = col_character(),
   location = col_character(),
@@ -36,11 +36,12 @@ data.df <- read_csv("dectrees.csv",
   pages_viewed = col_integer(),
   service_chosen = col_factor(levels = NULL)
 )
+                    
+data.df
 ```
 `@solution`
 ```{r}
 library(tibble)
-
 ```
 
 
